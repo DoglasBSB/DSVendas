@@ -22,7 +22,6 @@ const BarCharts = () => {
         ]
     };
     
-
     return (
            <Charts 
                 options={{ ...options, xaxis:mockData.labels}}
