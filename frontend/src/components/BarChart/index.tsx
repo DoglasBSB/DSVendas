@@ -1,6 +1,6 @@
-import Charts from 'react-apexcharts'
+import Chart from 'react-apexcharts'
 
-const BarCharts = () => {
+const BarChart = () => {
 
     const options = {
         plotOptions: {
@@ -23,7 +23,7 @@ const BarCharts = () => {
     };
     
     return (
-           <Charts 
+           <Chart 
                 options={{ ...options, xaxis:mockData.labels}}
                 series={mockData.series}
                 type="bar"
@@ -32,4 +32,4 @@ const BarCharts = () => {
     );
   }
   
-  export default BarCharts;
+  export default BarChart;
